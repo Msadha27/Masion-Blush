@@ -13,19 +13,37 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-6">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
+            <a
+              href="#"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="Instagram"
+            >
               <Instagram className="w-5 h-5" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Email">
+            <a
+              href="#"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="Email"
+            >
               <Mail className="w-5 h-5" />
             </a>
           </div>
         </div>
 
+        {/* Affiliate Disclaimer */}
+        <div className="mt-6 text-center text-xs text-muted-foreground max-w-3xl mx-auto">
+          <p>
+            This website contains affiliate links. As an Amazon Associate, we
+            earn from qualifying purchases at no extra cost to you.
+          </p>
+        </div>
+
         <div className="mt-8 pt-6 border-t border-border/50 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
           <p>© 2026 Maison Blush. All rights reserved.</p>
           <p className="flex items-center gap-1">
-            Made with <Heart className="w-3 h-3 text-primary fill-primary" /> for aesthetic souls
+            Made with{" "}
+            <Heart className="w-3 h-3 text-primary fill-primary" /> for aesthetic
+            souls
           </p>
         </div>
       </div>
