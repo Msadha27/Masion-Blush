@@ -1,6 +1,7 @@
 import fashionImg from "@/assets/category-fashion.jpg";
 import booksImg from "@/assets/category-books.jpg";
 import amazonImg from "@/assets/category-amazon.jpg";
+import { Link } from "react-router-dom";
 
 const categories = [
   {
@@ -37,6 +38,15 @@ const CategorySection = () => {
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground">
             Shop by Category
           </h2>
+          <Link to="/fashion">
+                {/* Fashion Card Content */}
+          </Link>
+          <Link to="/books">
+              {/* Books Card Content */}
+          </Link>
+          <Link to="/finds">
+             {/* Finds Card Content */}
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
