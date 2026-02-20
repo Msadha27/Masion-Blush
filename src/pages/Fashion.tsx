@@ -1,22 +1,246 @@
-import { Link } from "react-router-dom";
+import necklace1 from "@/assets/fashion/Palmon black.jpg";
+import necklace2 from "@/assets/fashion/Palmon pink.jpg";
+import necklace3 from "@/assets/fashion/Heart.jpg";
+import necklace4 from "@/assets/fashion/Blackheart.jpg";
+//dresses
+import dress1 from "@/assets/fashion/Maxi1.jpg";
+import dress2 from "@/assets/fashion/Yellowmaxi.jpg";
+import dress3 from "@/assets/fashion/Pinkfloral.jpg";
+//bags
+import bag1 from "@/assets/fashion/bag1.jpg";
+import bag2 from "@/assets/fashion/bag2.jpg";
+import bag3 from "@/assets/fashion/bag3.jpg";
+
 
 const Fashion = () => {
   return (
     <div className="min-h-screen py-20 px-6">
-      <div className="container mx-auto max-w-4xl">
-        <h1 className="text-3xl font-serif mb-10 text-center">
+      <div className="container mx-auto max-w-6xl">
+
+        <h1 className="text-3xl font-serif mb-12 text-center">
           Curated Fashion Picks
         </h1>
 
+        {/* NECKLACES */}
+        <h2 className="text-2xl font-serif mb-6">✨ Minimal Necklaces</h2>
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
+
+          {/* Product 1 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+           <img src={necklace1} alt="PALMONAS Blue Stone Gold Necklace" className="w-full h-64 object-cover rounded-lg mb-4"/>
+
+           <h3 className="font-semibold mb-2">
+                 PALMONAS Blue Stone Gold Necklace
+           </h3>
+
+            <p className="text-sm text-muted-foreground mb-4">
+              A delicate blue stone pendant with gold finish — waterproof,
+              anti-tarnish and perfect for everyday minimal styling.
+            </p>
+
+            <a
+              href="https://amzn.to/4aLVkr2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+         </div>
+          {/* Duplicate block for other 2 necklaces */}
+          {/* Product 2 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img
+              src={necklace2}
+              alt="PALMONAS Pink Emerald Geometric Pendant"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+
+            <h3 className="font-semibold mb-2">
+              PALMONAS Pink Emerald Geometric Pendant
+            </h3>
+
+            <p className="text-sm text-muted-foreground mb-4">
+              A soft pink emerald geometric pendant with a modern gold finish —
+              waterproof, anti-tarnish and perfect for gifting or everyday elegance.
+            </p>
+
+            <a
+              href="https://amzn.to/472G4EX"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
+          {/* Product 3 */}
+         <div className="border rounded-xl p-6 shadow-sm">
+            <img
+              src={necklace3}
+              alt="18K Gold Plated Open Heart Pendant Necklace"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+
+            <h3 className="font-semibold mb-2">
+              18K Gold Plated Open Heart Pendant Necklace
+            </h3>
+
+            <p className="text-sm text-muted-foreground mb-4">
+              A timeless open-heart pendant with a sleek gold snake chain —
+              anti-tarnish, hypoallergenic and perfect for effortless everyday elegance.
+            </p>
+
+            <a
+              href="https://amzn.to/4kI059w"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
+
+          {/* Product 4 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img
+              src={necklace4}
+              alt="Gold Chain Necklace with Black Heart Charms"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+
+            <h3 className="font-semibold mb-2">
+              Gold Chain Necklace with Black Heart Charms
+            </h3>
+
+            <p className="text-sm text-muted-foreground mb-4">
+              A dainty multi-charm necklace with subtle black heart accents —
+              minimal, trendy and perfect for everyday layering.
+            </p>
+
+            <a
+              href="https://amzn.to/3ORwluR"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
+
+        </div>
+
+
+        {/* DRESSES */}
+        <h2 className="text-2xl font-serif mb-6">🌸 Floral Maxi Dresses</h2>
+        <div className="grid md:grid-cols-3 gap-8 mb-16">    
+
+          {/* Add 3 dress blocks same structure */}
+          {/* dress1 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+              <img
+                src={dress1}
+                alt="Leriya Floral Georgette A-Line Maxi Dress"
+                className="w-full h-64 object-cover rounded-lg mb-4"
+              />
+
+              <h3 className="font-semibold mb-2">
+                Leriya Floral Georgette A-Line Maxi Dress
+              </h3>
+
+              <p className="text-sm text-muted-foreground mb-4">
+                A flowy georgette maxi dress with soft floral prints and a flattering
+                A-line silhouette — perfect for summer outings and effortless elegance.
+              </p>
+
+              <a
+                href="https://amzn.to/4s0jG7c"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline"
+              >
+                View on Amazon
+              </a>
+            </div>
+          {/* dress2 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img
+              src={dress2}
+              alt="AASK Floral One-Piece Maxi Dress"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+
+            <h3 className="font-semibold mb-2">
+              AASK Floral One-Piece Maxi Dress
+            </h3>
+
+            <p className="text-sm text-muted-foreground mb-4">
+              A soft floral one-piece maxi with an effortless silhouette —
+              lightweight, feminine and perfect for everyday elegance.
+            </p>
+
+            <a
+              href="https://amzn.to/4s1CdjM"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
+          {/* dress3 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img
+              src={dress3}
+              alt="Sheetal Associates Floral Puff Sleeve Maxi Dress"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+
+            <h3 className="font-semibold mb-2">
+              Floral Puff Sleeve High-Waist Maxi Dress
+            </h3>
+
+            <p className="text-sm text-muted-foreground mb-4">
+              A romantic floral maxi dress with puff sleeves and a flattering high-waist silhouette —
+              flowy, feminine and perfect for brunch dates or soft aesthetic outings.
+            </p>
+
+            <a
+              href="https://amzn.to/4aMHcxJ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
+
+        </div>
+
+
+        {/* BAGS */}
+        <h2 className="text-2xl font-serif mb-6">👜 Aesthetic Bags</h2>
         <div className="grid md:grid-cols-3 gap-8">
-
+          {/* Add 3 bag blocks */}
+          {/*bag 1*/}
           <div className="border rounded-xl p-6 shadow-sm">
-            <h3 className="font-semibold mb-2">Minimal Gold Necklace</h3>
+            <img
+              src={bag1}
+              alt="The Purple Tree Printed Canvas Tote Bag"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+
+            <h3 className="font-semibold mb-2">
+              The Purple Tree Printed Canvas Tote Bag
+            </h3>
+
             <p className="text-sm text-muted-foreground mb-4">
-              Elegant everyday accessory for soft aesthetic outfits.
+              A stylish printed canvas tote perfect for college days,
+              casual outings and everyday minimal styling.
             </p>
+
             <a
-              href="https://www.amazon.in"
+              href="https://amzn.to/4rSHqtS"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary underline"
@@ -24,14 +248,25 @@ const Fashion = () => {
               View on Amazon
             </a>
           </div>
-
+          {/*bag 2*/}
           <div className="border rounded-xl p-6 shadow-sm">
-            <h3 className="font-semibold mb-2">Pastel Oversized Shirt</h3>
+            <img
+              src={bag2}
+              alt="Eco Right Large Canvas Tote with Zipper"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+
+            <h3 className="font-semibold mb-2">
+              Eco Right Large Canvas Tote with Zipper
+            </h3>
+
             <p className="text-sm text-muted-foreground mb-4">
-              Perfect minimal college outfit essential.
+              Spacious and practical with inner pocket and zipper —
+              perfect for college, shopping and office essentials.
             </p>
+
             <a
-              href="https://www.amazon.in"
+              href="https://amzn.to/4b0je3d"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary underline"
@@ -39,29 +274,35 @@ const Fashion = () => {
               View on Amazon
             </a>
           </div>
-
+          {/*bag 3*/}
           <div className="border rounded-xl p-6 shadow-sm">
-            <h3 className="font-semibold mb-2">Aesthetic Handbag</h3>
-            <p className="text-sm text-muted-foreground mb-4">
-              Neutral tone handbag for everyday elegance.
-            </p>
-            <a
-              href="https://www.amazon.in"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary underline"
-            >
-              View on Amazon
-            </a>
-          </div>
+              <img
+                src={bag3}
+                alt="The Purple Tree Printed Fatty Tote Bag"
+                className="w-full h-64 object-cover rounded-lg mb-4"
+              />
+
+              <h3 className="font-semibold mb-2">
+                The Purple Tree Printed Fatty Tote Bag
+              </h3>
+
+              <p className="text-sm text-muted-foreground mb-4">
+                A cute and gift-worthy printed tote —
+                stylish, functional and perfect for everyday use.
+              </p>
+
+              <a
+                href="https://amzn.to/4b0j7EP"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline"
+              >
+                View on Amazon
+              </a>
+            </div>
 
         </div>
 
-        <div className="mt-12 text-center">
-          <Link to="/" className="text-sm underline">
-            ← Back to Home
-          </Link>
-        </div>
       </div>
     </div>
   );
