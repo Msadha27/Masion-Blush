@@ -141,7 +141,7 @@ const Fashion = () => {
               <img
                 src={dress1}
                 alt="Leriya Floral Georgette A-Line Maxi Dress"
-                className="w-full h-64 object-cover rounded-lg mb-4"
+                className="w-full h-80 object-contain bg-white rounded-lg mb-4"
               />
 
               <h3 className="font-semibold mb-2">
@@ -167,7 +167,7 @@ const Fashion = () => {
             <img
               src={dress2}
               alt="AASK Floral One-Piece Maxi Dress"
-              className="w-full h-64 object-cover rounded-lg mb-4"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
             />
 
             <h3 className="font-semibold mb-2">
@@ -193,7 +193,7 @@ const Fashion = () => {
             <img
               src={dress3}
               alt="Sheetal Associates Floral Puff Sleeve Maxi Dress"
-              className="w-full h-64 object-cover rounded-lg mb-4"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
             />
 
             <h3 className="font-semibold mb-2">
@@ -253,7 +253,7 @@ const Fashion = () => {
             <img
               src={bag2}
               alt="Eco Right Large Canvas Tote with Zipper"
-              className="w-full h-64 object-cover rounded-lg mb-4"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
             />
 
             <h3 className="font-semibold mb-2">

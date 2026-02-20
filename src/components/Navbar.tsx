@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { Heart, Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const navLinks = [
-  { label: "Shop", href: "#shop" },
-  { label: "Fashion", href: "#fashion" },
-  { label: "Books", href: "#books" },
-  { label: "Amazon Picks", href: "#amazon" },
-  { label: "About", href: "#about" },
+  { label: "Shop", path: "/" },
+  { label: "Fashion", path: "/fashion" },
+  { label: "Books", path: "/books" },
+  { label: "Amazon Picks", path: "/finds" },
+  { label: "About", path: "/about" },
 ];
 
 const Navbar = () => {
@@ -15,23 +16,25 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        <a href="#" className="flex items-center gap-2">
+        
+        {/* Logo */}
+        <Link to="/" className="flex items-center gap-2">
           <Heart className="w-5 h-5 text-primary fill-primary" />
           <span className="font-serif text-xl font-semibold tracking-wide text-foreground">
             Maison Blush
           </span>
-        </a>
+        </Link>
 
-        {/* Desktop */}
+        {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.label}>
-              <a
-                href={link.href}
+              <Link
+                to={link.path}
                 className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 {link.label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -52,13 +55,13 @@ const Navbar = () => {
           <ul className="flex flex-col items-center gap-4 py-6">
             {navLinks.map((link) => (
               <li key={link.label}>
-                <a
-                  href={link.href}
+                <Link
+                  to={link.path}
                   className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
                   onClick={() => setOpen(false)}
                 >
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
