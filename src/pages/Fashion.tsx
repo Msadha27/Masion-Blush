@@ -2,6 +2,7 @@ import necklace1 from "@/assets/fashion/Palmon black.jpg";
 import necklace2 from "@/assets/fashion/Palmon pink.jpg";
 import necklace3 from "@/assets/fashion/Heart.jpg";
 import necklace4 from "@/assets/fashion/Blackheart.jpg";
+import necklace5 from "@/assets/fashion/Pinkheart.jpg";
 //dresses
 import dress1 from "@/assets/fashion/Maxi1.jpg";
 import dress2 from "@/assets/fashion/Yellowmaxi.jpg";
@@ -10,6 +11,7 @@ import dress3 from "@/assets/fashion/Pinkfloral.jpg";
 import bag1 from "@/assets/fashion/bag1.jpg";
 import bag2 from "@/assets/fashion/bag2.jpg";
 import bag3 from "@/assets/fashion/bag3.jpg";
+import bag4 from "@/assets/fashion/Koreanbag.jpg"
 
 
 const Fashion = () => {
@@ -127,6 +129,32 @@ const Fashion = () => {
               View on Amazon
             </a>
           </div>
+          {/* Product 5 */}
+         <div className="border rounded-xl p-6 shadow-sm">
+          <img
+            src={necklace5}
+            alt="18K Gold Plated Korean Heart Pendant Necklace"
+            className="w-full h-64 object-cover rounded-lg mb-4"
+          />
+
+          <h3 className="font-semibold mb-2">
+            18K Gold Plated Korean Heart Pendant Necklace
+          </h3>
+
+          <p className="text-sm text-muted-foreground mb-4">
+            A soft-girl style Korean heart pendant necklace — anti-tarnish, waterproof,
+            minimal and perfect for daily wear or gifting.
+          </p>
+
+          <a
+            href="https://amzn.to/46uUUnD"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary underline"
+          >
+            View on Amazon
+          </a>
+        </div>
 
         </div>
 
@@ -300,7 +328,29 @@ const Fashion = () => {
                 View on Amazon
               </a>
             </div>
-
+          {/*bag 4*/}
+          <div className="border rounded-xl p-6 shadow-sm">
+              <img
+                src={bag4}
+                alt="Korean Style Canvas Tote Bag"
+                className="w-full h-64 object-cover rounded-lg mb-4"
+              />  
+              <h3 className="font-semibold mb-2">
+                Kawn® Korean Corduroy Aesthetic Tote Bag
+              </h3>   
+              <p className="text-sm text-muted-foreground mb-4">
+               A soft Korean-style corduroy tote with a ribbed design — neutral, minimal
+    and perfect for college, travel and everyday soft-girl outfits.
+              </p>
+              <a
+                href="https://amzn.to/4aTG0Zg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline"
+              >
+                View on Amazon
+              </a>
+              </div>
         </div>
 
       </div>
