@@ -7,6 +7,7 @@ import necklace5 from "@/assets/fashion/Pinkheart.jpg";
 import dress1 from "@/assets/fashion/Maxi1.jpg";
 import dress2 from "@/assets/fashion/Yellowmaxi.jpg";
 import dress3 from "@/assets/fashion/Pinkfloral.jpg";
+import dress4 from "@/assets/fashion/Purplekurti.jpg"
 //bags
 import bag1 from "@/assets/fashion/bag1.jpg";
 import bag2 from "@/assets/fashion/bag2.jpg";
@@ -242,8 +243,31 @@ const Fashion = () => {
               View on Amazon
             </a>
           </div>
+          {/* dress4 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img 
+              src={dress4}
+              alt="Purple Floral Kurti"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+            />
 
-        </div>
+            <h3 className="font-semibold mb-2">
+              Elegant Rayon Viscose Purple Kurti Set – Embroidered Kurta, Pant & Dupatta
+            </h3>
+
+            <p className="text-sm text-muted-foreground mb-4">
+              Upgrade your ethnic wardrobe with this beautifully crafted purple rayon-viscose kurti set. Designed with elegant gold print embroidery, this set includes a straight-fit kurta, matching pants, and a soft dupatta for the perfect traditional yet modern Indian outfit.
+            </p>
+
+            <a
+              href="https://amzn.to/4l6VzBO"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
 
 
         {/* BAGS */}
@@ -354,7 +378,11 @@ const Fashion = () => {
         </div>
 
       </div>
+
+      </div>
     </div>
+
+
   );
 };
 
