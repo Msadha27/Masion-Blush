@@ -299,11 +299,11 @@ const Fashion = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Add 3 bag blocks */}
           {/*bag 1*/}
-          <div className="border rounded-xl p-6 shadow-sm">
-            <img
+          <div className="w-full aspect-[3/4] overflow-hidden rounded-lg bg-white">
+            <img 
               src={bag1}
               alt="The Purple Tree Printed Canvas Tote Bag"
-              className="w-full aspect-[3/4] object-cover bg-white rounded-lg mb-4"
+              className="w-full h-full object-cover"
             />
 
             <h3 className="font-semibold mb-2">
@@ -325,12 +325,12 @@ const Fashion = () => {
             </a>
           </div>
           {/*bag 2*/}
-          <div className="border rounded-xl p-6 shadow-sm">
-            <img
-              src={bag2}
-              alt="Eco Right Large Canvas Tote with Zipper"
-              className="w-full aspect-[3/4] object-cover bg-white rounded-lg mb-4"
-            />
+          <div className="w-full aspect-[3/4] overflow-hidden rounded-lg bg-white">
+              <img 
+                src={bag2}
+                alt="Eco Right Large Canvas Tote with Zipper"
+                className="w-full h-full object-cover"
+              />
 
             <h3 className="font-semibold mb-2">
               Eco Right Large Canvas Tote with Zipper
@@ -351,12 +351,12 @@ const Fashion = () => {
             </a>
           </div>
           {/*bag 3*/}
-          <div className="border rounded-xl p-6 shadow-sm">
-              <img
-                src={bag3}
-                alt="The Purple Tree Printed Fatty Tote Bag"
-                className="w-full aspect-[3/4] object-cover bg-white rounded-lg mb-4"
-              />
+          <div className="w-full aspect-[3/4] overflow-hidden rounded-lg bg-white">
+            <img 
+              src={bag3}
+              alt="The Purple Tree Printed Fatty Tote Bag"
+              className="w-full h-full object-cover"
+            />
 
               <h3 className="font-semibold mb-2">
                 The Purple Tree Printed Fatty Tote Bag
@@ -377,12 +377,12 @@ const Fashion = () => {
               </a>
             </div>
           {/*bag 4*/}
-          <div className="border rounded-xl p-6 shadow-sm">
-              <img
-                src={bag4}
-                alt="Korean Style Canvas Tote Bag"
-                className="w-full aspect-[3/4] object-cover bg-white rounded-lg mb-4"
-              />  
+          <div className="w-full aspect-[3/4] overflow-hidden rounded-lg bg-white">
+            <img 
+              src={bag4}
+              alt="Kawn® Korean Corduroy Aesthetic Tote Bag"
+              className="w-full h-full object-cover"
+            /> 
               <h3 className="font-semibold mb-2">
                 Kawn® Korean Corduroy Aesthetic Tote Bag
               </h3>   
