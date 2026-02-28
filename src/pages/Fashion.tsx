@@ -7,7 +7,8 @@ import necklace5 from "@/assets/fashion/Pinkheart.jpg";
 import dress1 from "@/assets/fashion/Maxi1.jpg";
 import dress2 from "@/assets/fashion/Yellowmaxi.jpg";
 import dress3 from "@/assets/fashion/Pinkfloral.jpg";
-import dress4 from "@/assets/fashion/Purplekurti.jpg"
+import dress4 from "@/assets/fashion/Purplekurti.jpg";
+import dress5 from "@/assets/fashion/Brownkurti.jpg"
 //bags
 import bag1 from "@/assets/fashion/bag1.jpg";
 import bag2 from "@/assets/fashion/bag2.jpg";
@@ -268,8 +269,31 @@ const Fashion = () => {
               View on Amazon
             </a>
           </div>
+          {/* dress5 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img
+              src={dress5}
+              alt="Brown Ethnic Kurti Set"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+            />
 
+            <h3 className="font-semibold mb-2">
+              Elegant Embroidered Anarkali Kurta Set — Premium Traditional Wear for Women
+            </h3>
 
+            <p className="text-sm text-muted-foreground mb-4">
+              A premium ethnic look at an affordable price — ideal for women who want stylish, comfortable, and classy Indian wear. This elegant Anarkali kurta set features intricate embroidery, a flattering silhouette, and comes with matching pants and a dupatta for a complete traditional outfit perfect for festivals, weddings, or everyday
+            </p>
+
+            <a
+              href="https://amzn.to/3P8LuYQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>  
         {/* BAGS */}
         <h2 className="text-2xl font-serif mb-6">👜 Aesthetic Bags</h2>
         <div className="grid md:grid-cols-3 gap-8">
