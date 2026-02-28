@@ -303,7 +303,7 @@ const Fashion = () => {
             <img
               src={bag1}
               alt="The Purple Tree Printed Canvas Tote Bag"
-              className="w-full h-64 object-cover rounded-lg mb-4"
+              className="w-full aspect-[3/4] object-cover bg-white rounded-lg mb-4"
             />
 
             <h3 className="font-semibold mb-2">
@@ -329,7 +329,7 @@ const Fashion = () => {
             <img
               src={bag2}
               alt="Eco Right Large Canvas Tote with Zipper"
-              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+              className="w-full aspect-[3/4] object-cover bg-white rounded-lg mb-4"
             />
 
             <h3 className="font-semibold mb-2">
@@ -355,7 +355,7 @@ const Fashion = () => {
               <img
                 src={bag3}
                 alt="The Purple Tree Printed Fatty Tote Bag"
-                className="w-full h-64 object-cover rounded-lg mb-4"
+                className="w-full aspect-[3/4] object-cover bg-white rounded-lg mb-4"
               />
 
               <h3 className="font-semibold mb-2">
@@ -381,7 +381,7 @@ const Fashion = () => {
               <img
                 src={bag4}
                 alt="Korean Style Canvas Tote Bag"
-                className="w-full h-64 object-cover rounded-lg mb-4"
+                className="w-full aspect-[3/4] object-cover bg-white rounded-lg mb-4"
               />  
               <h3 className="font-semibold mb-2">
                 Kawn® Korean Corduroy Aesthetic Tote Bag
