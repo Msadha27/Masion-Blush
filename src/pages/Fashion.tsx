@@ -280,7 +280,7 @@ const Fashion = () => {
             />
 
             <h3 className="font-semibold mb-2">
-              Elegant Rayon Viscose Purple Kurti Set – Embroidered Kurta, Pant & Dupatta
+              Elegant Rayon Viscose Purple Kurti Set.Embroidered Kurta, Pant & Dupatta
             </h3>
 
             <p className="text-sm text-muted-foreground mb-4">
@@ -329,7 +329,7 @@ const Fashion = () => {
               className="w-full h-80 object-contain bg-white rounded-lg mb-4"
             />
             <h3 className="font-semibold mb-2"> 
-              Kanjivaram Silk Zari Weaving Half Saree (Langa Voni) | Bridal & Festive Wear
+              Kanjivaram Silk Zari Weaving Half Saree (Langa Voni).Bridal & Festive Wear
             </h3>
 
             <p className="text-sm text-muted-foreground mb-4">
