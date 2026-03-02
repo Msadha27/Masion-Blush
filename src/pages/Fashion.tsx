@@ -3,12 +3,14 @@ import necklace2 from "@/assets/fashion/Palmon pink.jpg";
 import necklace3 from "@/assets/fashion/Heart.jpg";
 import necklace4 from "@/assets/fashion/Blackheart.jpg";
 import necklace5 from "@/assets/fashion/Pinkheart.jpg";
+import ring1 from "@/assets/fashion/ring1.jpg";
 //dresses
 import dress1 from "@/assets/fashion/Maxi1.jpg";
 import dress2 from "@/assets/fashion/Yellowmaxi.jpg";
 import dress3 from "@/assets/fashion/Pinkfloral.jpg";
 import dress4 from "@/assets/fashion/Purplekurti.jpg";
-import dress5 from "@/assets/fashion/Brownkurti.jpg"
+import dress5 from "@/assets/fashion/Brownkurti.jpg";
+import dress6 from "@/assets/fashion/Lehanga.jpg";
 //bags
 import bag1 from "@/assets/fashion/bag1.jpg";
 import bag2 from "@/assets/fashion/bag2.jpg";
@@ -157,10 +159,35 @@ const Fashion = () => {
             View on Amazon
           </a>
         </div>
+          {/* Product 6 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img
 
+              src={ring1}
+              alt="18K Gold Plated Heart Ring"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+
+            <h3 className="font-semibold mb-2">
+              Cute Pink & Gold Aesthetic Stackable Ring Set (Combo of 8)
+            </h3>
+
+            <p className="text-sm text-muted-foreground mb-4">
+              A delicate heart-shaped ring with a gold plating — anti-tarnish, waterproof,
+              and perfect for everyday elegance or gifting.
+            </p>
+
+            <a
+              href="https://amzn.to/4rbAPKt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
         </div>
-
-
+        
         {/* DRESSES */}
         <h2 className="text-2xl font-serif mb-6">🌸 Floral Maxi Dresses</h2>
         <div className="grid md:grid-cols-3 gap-8 mb-16">    
@@ -293,7 +320,31 @@ const Fashion = () => {
             >
               View on Amazon
             </a>
-          </div>  
+          </div> 
+          {/* dress6 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img
+              src={dress6}
+              alt="Elegant Lehenga Choli Set"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+            />
+            <h3 className="font-semibold mb-2"> 
+              Kanjivaram Silk Zari Weaving Half Saree (Langa Voni) | Bridal & Festive Wear
+            </h3>
+
+            <p className="text-sm text-muted-foreground mb-4">
+              A stunning lehenga choli set with intricate embroidery and a flowy silhouette —
+              perfect for weddings, festivals or special occasions.
+            </p>
+            <a
+              href="https://amzn.to/46yLwzg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
         </div>
         {/* BAGS */}
         <h2 className="text-2xl font-serif mb-6">👜 Aesthetic Bags</h2>
