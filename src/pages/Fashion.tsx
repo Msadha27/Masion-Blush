@@ -3,7 +3,7 @@ import necklace2 from "@/assets/fashion/Palmon pink.jpg";
 import necklace3 from "@/assets/fashion/Heart.jpg";
 import necklace4 from "@/assets/fashion/Blackheart.jpg";
 import necklace5 from "@/assets/fashion/Pinkheart.jpg";
-import ring1 from "@/assets/fashion/ring1.jpg";
+import ring1 from "@/assets/fashion/rings.jpg";
 //dresses
 import dress1 from "@/assets/fashion/Maxi1.jpg";
 import dress2 from "@/assets/fashion/Yellowmaxi.jpg";
