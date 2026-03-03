@@ -11,11 +11,13 @@ import dress3 from "@/assets/fashion/Pinkfloral.jpg";
 import dress4 from "@/assets/fashion/Purplekurti.jpg";
 import dress5 from "@/assets/fashion/Brownkurti.jpg";
 import dress6 from "@/assets/fashion/Lehanga.jpg";
+import dress7 from "@/assets/fashion/BlackMaxi.jpg";
 //bags
 import bag1 from "@/assets/fashion/bag1.jpg";
 import bag2 from "@/assets/fashion/bag2.jpg";
 import bag3 from "@/assets/fashion/bag3.jpg";
-import bag4 from "@/assets/fashion/Koreanbag.jpg"
+import bag4 from "@/assets/fashion/Koreanbag.jpg";
+import bag5 from "@/assets/fashion/bag4.jpg"
 
 
 const Fashion = () => {
@@ -345,6 +347,30 @@ const Fashion = () => {
               View on Amazon
             </a>
           </div>
+          {/* dress7 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img
+              src={dress7}
+              alt="Elegant Ombre Pleated Maxi Dress"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+            />  
+            <h3 className="font-semibold mb-2">
+              Elegant Ombre Pleated Maxi Dress
+            </h3>
+            <p className="text-sm text-muted-foreground mb-4">
+              An elegant long-sleeve ombre maxi dress featuring a soft pleated gradient.
+              Perfect for parties, dinners, outings, and effortless classy styling.
+              Lightweight, comfortable, and beautifully flowy — a true statement piece.
+            </p>
+            <a
+              href="https://amzn.to/4cjAW2S"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+            </div>
         </div>
         {/* BAGS */}
         <h2 className="text-2xl font-serif mb-6">👜 Aesthetic Bags</h2>
@@ -444,6 +470,30 @@ const Fashion = () => {
               </p>
               <a
                 href="https://amzn.to/4aTG0Zg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline"
+              >
+                View on Amazon
+              </a>
+              </div>
+          {/*bag 5*/}
+          <div className="border rounded-xl p-6 shadow-sm">
+              <img
+                src={bag5}
+                alt="ADISA Minimal Crossbody Sling Bag"
+                className="w-full h-64 object-cover rounded-lg mb-4"
+              />  
+              <h3 className="font-semibold mb-2">
+                ADISA Minimal Crossbody Sling Bag
+              </h3>   
+              <p className="text-sm text-muted-foreground mb-4">
+               A chic and versatile canvas tote designed for everyday use.
+               Perfect for college, errands, casual outings, and effortless minimal styling.
+               Lightweight, durable, and spacious — your go-to carry-all for a stylish day on the move.
+              </p>
+              <a
+                href="https://amzn.to/40LF709"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary underline"
