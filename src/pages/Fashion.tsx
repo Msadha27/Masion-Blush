@@ -12,6 +12,7 @@ import dress4 from "@/assets/fashion/Purplekurti.jpg";
 import dress5 from "@/assets/fashion/Brownkurti.jpg";
 import dress6 from "@/assets/fashion/Lehanga.jpg";
 import dress7 from "@/assets/fashion/BlackMaxi.jpg";
+import dress8 from "@/assets/fashion/Shortkurti.jpg";
 //bags
 import bag1 from "@/assets/fashion/bag1.jpg";
 import bag2 from "@/assets/fashion/bag2.jpg";
@@ -371,7 +372,28 @@ const Fashion = () => {
               View on Amazon
             </a>
             </div>
-        </div>
+          {/* dress8 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img
+              src={dress8}
+              alt="Paisley Cotton Tunic Top"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+            />
+            <h3 className="font-semibold mb-2">
+             Paisley Cotton Tunic Top
+            </h3>
+            <p className="text-sm text-muted-foreground mb-4">
+           A soft cotton paisley printed tunic designed for comfort and everyday elegance. Perfect for casual outings, office wear, or relaxed styling.
+            </p>
+            <a
+              href="https://amzn.to/4uqF2wT"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
         {/* BAGS */}
         <h2 className="text-2xl font-serif mb-6">👜 Aesthetic Bags</h2>
         <div className="grid md:grid-cols-3 gap-8">
@@ -504,11 +526,11 @@ const Fashion = () => {
         </div>
 
       </div>
-
       </div>
 
-
+    </div>
   );
-};
+}
+
 
 export default Fashion;
