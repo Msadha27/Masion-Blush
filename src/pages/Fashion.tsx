@@ -396,6 +396,7 @@ const Fashion = () => {
           </div>
         </div>
         {/* BAGS */}
+        <div className="mb-16">
         <h2 className="text-2xl font-serif mb-6">👜 Aesthetic Bags</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {/* Add 3 bag blocks */}
@@ -524,10 +525,13 @@ const Fashion = () => {
                 View on Amazon
               </a>
               </div>
+            </div>
+          
         </div>
+      
+      </div>
+    </div>
 
-      </div>
-      </div>
 
 
   );
