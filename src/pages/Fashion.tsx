@@ -394,7 +394,7 @@ const Fashion = () => {
               View on Amazon
             </a>
           </div>
-        <div>
+        </div>
         {/* BAGS */}
         <h2 className="text-2xl font-serif mb-6">👜 Aesthetic Bags</h2>
         <div className="grid md:grid-cols-3 gap-8">
@@ -528,9 +528,7 @@ const Fashion = () => {
 
       </div>
       </div>
-    </div>
 
-    </div>
 
   );
 }
