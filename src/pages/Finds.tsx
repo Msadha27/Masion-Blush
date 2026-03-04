@@ -28,7 +28,7 @@ const Finds = () => {
             </p>
 
             <a
-              href="https://amzn.to/406B6n1"
+              href="https://amzn.to/4lgXDY0"
               target="_blank"
               rel="noopener noreferrer"
               className="text-pink-600 font-medium hover:underline"
