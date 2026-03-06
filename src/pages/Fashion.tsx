@@ -424,7 +424,8 @@ const Fashion = () => {
               View on Amazon
             </a>
           </div>
-
+        </div>
+        <div>
         {/* BAGS */}
         <div className="mb-16">
         <h2 className="text-2xl font-serif mb-6">👜 Aesthetic Bags</h2>
@@ -578,8 +579,9 @@ const Fashion = () => {
                 View on Amazon
               </a>
               </div>
-           
             </div>
+            </div>
+          <div>
              {/* Watches*/}
               <div className="mb-16">
               <h2 className="text-2xl font-serif mb-6">⌚ Elegant Watches</h2>
@@ -608,7 +610,10 @@ const Fashion = () => {
                   </a>
                   </div>
               </div>
-              {/* Footwear */}
+            </div>
+            </div>
+          <div>
+             {/* Footwear */}
               <div className="mb-16">
               <h2 className="text-2xl font-serif mb-6">👡 Aesthetic Footwear</h2>
               <div className="grid md:grid-cols-3 gap-8">
@@ -637,12 +642,11 @@ const Fashion = () => {
                   </a>
                   </div>
               </div>
+              </div>
             </div>
           </div>
       </div>
       </div>
-    </div>
-    </div>
   );
 }
 
