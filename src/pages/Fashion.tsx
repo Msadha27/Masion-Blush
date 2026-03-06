@@ -13,12 +13,19 @@ import dress5 from "@/assets/fashion/Brownkurti.jpg";
 import dress6 from "@/assets/fashion/Lehanga.jpg";
 import dress7 from "@/assets/fashion/BlackMaxi.jpg";
 import dress8 from "@/assets/fashion/Shortkurti.jpg";
+import dress9 from "@/assets/fashion/Ethnicwear.jpg";
 //bags
 import bag1 from "@/assets/fashion/bag1.jpg";
 import bag2 from "@/assets/fashion/bag2.jpg";
 import bag3 from "@/assets/fashion/bag3.jpg";
 import bag4 from "@/assets/fashion/Koreanbag.jpg";
-import bag5 from "@/assets/fashion/bag4.jpg"
+import bag5 from "@/assets/fashion/bag4.jpg";
+import bag6 from "@/assets/fashion/Handbag.jpg";
+//Watches
+import watch1 from "@/assets/fashion/rosegoldwatch.jpg";
+//Footwear
+import footwear1 from "@/assets/fashion/jutti.jpg";
+
 
 
 const Fashion = () => {
@@ -394,7 +401,30 @@ const Fashion = () => {
               View on Amazon
             </a>
           </div>
-        </div>
+          {/* dress9 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img
+              src={dress9}
+              alt="Ethnicwear"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+            />
+            <h3 className="font-semibold mb-2">
+              Elegant Embroidered Anarkali Kurta Set — Premium Traditional Wear for Festive Occasions
+            </h3>
+            <p className="text-sm text-muted-foreground mb-4">
+              A beautifully embroidered anarkali kurta set with traditional motifs and premium fabric.
+              Ideal for weddings, festivals, and special celebrations.
+            </p>
+            <a
+              href="https://amzn.to/47fVo16"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
+
         {/* BAGS */}
         <div className="mb-16">
         <h2 className="text-2xl font-serif mb-6">👜 Aesthetic Bags</h2>
@@ -490,7 +520,7 @@ const Fashion = () => {
               </h3>   
               <p className="text-sm text-muted-foreground mb-4">
                A soft Korean-style corduroy tote with a ribbed design — neutral, minimal
-    and perfect for college, travel and everyday soft-girl outfits.
+               and perfect for college, travel and everyday soft-girl outfits.
               </p>
               <a
                 href="https://amzn.to/4aTG0Zg"
@@ -525,15 +555,94 @@ const Fashion = () => {
                 View on Amazon
               </a>
               </div>
+          {/*bag 6*/}
+          <div className="border rounded-xl p-6 shadow-sm">
+              <img
+                src={bag6}
+                alt="Stylish Knitted Crochet Handbag"
+                className="w-full h-64 object-cover rounded-lg mb-4"
+              />
+              <h3 className="font-semibold mb-2">
+                Elegant Evening Clutch Bag
+              </h3>
+              <p className="text-sm text-muted-foreground mb-4">
+               A stylish evening clutch designed to complement both ethnic and modern outfits. Featuring a sleek textured finish and a delicate chain strap, this handbag adds a touch of elegance to any party or festive look. Compact yet spacious enough for your essentials, 
+               it’s the perfect accessory for weddings, celebrations, and special occasions.
+              </p>
+              <a
+                href="https://amzn.to/4snpmZc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline"
+              >
+                View on Amazon
+              </a>
+              </div>
+           
             </div>
-          
-        </div>
-      
+             {/* Watches*/}
+              <div className="mb-16">
+              <h2 className="text-2xl font-serif mb-6">⌚ Elegant Watches</h2>
+              <div className="grid md:grid-cols-3 gap-8">
+                {/* Add 3 watch blocks */}
+                {/* watch 1 */}
+                <div className="border rounded-xl p-6 shadow-sm">
+                  <img
+                    src={watch1}
+                    alt="Rose Gold Minimalist Watch"
+                    className="w-full h-64 object-cover rounded-lg mb-4"
+                  />  
+                  <h3 className="font-semibold mb-2">
+                    Rose Gold Minimalist Watch
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    A sleek and elegant rose gold watch with a minimalist design — perfect for everyday wear, office styling, and special occasions. Lightweight, comfortable, and designed to elevate any outfit with a touch of timeless sophistication.
+                  </p>  
+                  <a
+                    href="https://amzn.to/4bi4vzQ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary underline"
+                  >
+                    View on Amazon
+                  </a>
+                  </div>
+              </div>
+              {/* Footwear */}
+              <div className="mb-16">
+              <h2 className="text-2xl font-serif mb-6">👡 Aesthetic Footwear</h2>
+              <div className="grid md:grid-cols-3 gap-8">
+                {/* Add 3 footwear blocks */}
+                {/* footwear 1 */}
+                <div className="border rounded-xl p-6 shadow-sm">
+                  <img
+                    src={footwear1}
+                    alt="Traditional Jutti Shoes"
+                    className="w-full h-64 object-cover rounded-lg mb-4"
+                  />  
+                  <h3 className="font-semibold mb-2">
+                    Traditional Jutti Shoes
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    A pair of traditional jutti shoes featuring intricate embroidery and a comfortable fit — perfect
+                    for formal and casual occasions alike. These versatile shoes add a touch of timeless elegance to any outfit.  
+                  </p>
+                  <a
+                    href="https://amzn.to/4rlw94T"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary underline"
+                  >
+                    View on Amazon
+                  </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
       </div>
     </div>
-
-
-
+    </div>
   );
 }
 
