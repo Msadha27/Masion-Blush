@@ -28,8 +28,10 @@ import bag5 from "@/assets/fashion/bag4.jpg";
 import bag6 from "@/assets/fashion/Handbag.jpg";
 //Watches
 import watch1 from "@/assets/fashion/rosegoldwatch.jpg";
+import watch2 from "@/assets/fashion/Halowatch.jpg";
 //Footwear
 import footwear1 from "@/assets/fashion/jutti.jpg";
+import footwear2 from "@/assets/fashion/canvas.jpg";
 
 
 
@@ -729,6 +731,33 @@ This outfit offers a perfect blend of comfort and elegance, making it ideal for 
                     View on Amazon
                   </a>
                   </div>
+                  {/* watch 2 */}
+                  <div className="border rounded-xl p-6 shadow-sm">
+                    <img
+                      src={watch2}
+                      alt="Joker & Witch Halo Analogue Watch for Women"
+                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                    />
+
+                    <h3 className="font-semibold mb-2">
+                      Joker & Witch Halo Watch — Elegant Women's Fashion Wristwatch
+                    </h3>
+
+                    <p className="text-sm text-muted-foreground mb-4">
+                      A stylish analogue watch with a rose gold strap and black dial,
+                      designed to add elegance to any outfit. Perfect for office wear,
+                      casual fashion, and special occasions.
+                    </p>
+
+                    <a
+                      href="https://amzn.to/4llawA2"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary underline"
+                    >
+                      View on Amazon
+                    </a>
+                  </div>
               </div>
             </div>
             </div>
@@ -760,6 +789,33 @@ This outfit offers a perfect blend of comfort and elegance, making it ideal for 
                   >
                     View on Amazon
                   </a>
+                  </div>
+                  {/* footwear 2 */}
+                  <div className="border rounded-xl p-6 shadow-sm">
+                    <img
+                      src={footwear2}
+                      alt="CANVI Women's Ethnic Flats Sandals"
+                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                    />
+
+                    <h3 className="font-semibold mb-2">
+                      CANVI Stylish Ethnic Flats — Comfortable Women's Casual Sandals
+                    </h3>
+
+                    <p className="text-sm text-muted-foreground mb-4">
+                      Elegant and comfortable ethnic flats designed for everyday fashion. 
+                      These stylish sandals feature a pointed toe design and soft synthetic leather,
+                      making them perfect for college, casual outings, and ethnic outfits.
+                    </p>
+
+                    <a
+                      href="https://amzn.to/4s6XWr1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary underline"
+                    >
+                      View on Amazon
+                    </a>
                   </div>
               </div>
               </div>
