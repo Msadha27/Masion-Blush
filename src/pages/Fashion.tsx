@@ -278,7 +278,6 @@ const Fashion = () => {
               A romantic floral maxi dress with puff sleeves and a flattering high-waist silhouette —
               flowy, feminine and perfect for brunch dates or soft aesthetic outings.
             </p>
-
             <a
               href="https://amzn.to/4aMHcxJ"
               target="_blank"
