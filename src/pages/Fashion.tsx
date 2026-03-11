@@ -14,6 +14,11 @@ import dress6 from "@/assets/fashion/Lehanga.jpg";
 import dress7 from "@/assets/fashion/BlackMaxi.jpg";
 import dress8 from "@/assets/fashion/Shortkurti.jpg";
 import dress9 from "@/assets/fashion/Ethnicwear.jpg";
+import dress10 from "@/assets/fashion/Holi.jpg";
+import dress11 from "@/assets/fashion/Blackanarkali.jpg";
+import dress12 from "@/assets/fashion/Ethnicpurple.jpg";
+import dress13 from "@/assets/fashion/Greenkurti.jpg";
+import dress14 from "@/assets/fashion/Bluekurta.jpg";
 //bags
 import bag1 from "@/assets/fashion/bag1.jpg";
 import bag2 from "@/assets/fashion/bag2.jpg";
@@ -424,6 +429,121 @@ const Fashion = () => {
               View on Amazon
             </a>
           </div>
+          {/* dress10 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img  
+              src={dress10} 
+              alt="Holi Festival Outfit"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+            />
+            <h3 className="font-semibold mb-2">
+             Rayon Printed Anarkali Kurti — Festive Ethnic Outfit for Celebrations
+            </h3>
+            <p className="text-sm text-muted-foreground mb-4">
+              A vibrant and colorful outfit set designed for the Holi festival. This set includes a bright kurta, comfortable pants, and a matching dupatta — perfect for celebrating the festival of colors in style and comfort.
+            </p>
+            <a
+              href="https://amzn.to/4unWJgd"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
+            {/* dress11 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img  
+              src={dress11} 
+              alt="Elegant Black Anarkali Kurta Set"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+            />
+            <h3 className="font-semibold mb-2">
+              ANNI Rayon Printed Kurta Pant Set — Comfortable Ethnic Outfit for Daily Wear
+            </h3>
+            <p className="text-sm text-muted-foreground mb-4">
+            This elegant rayon kurta pant set combines simplicity with style.
+The lightweight fabric and attractive printed design make it a great choice for casual outings, workdays, and relaxed ethnic fashion. A comfortable and affordable outfit for women who love effortless style.
+            </p>
+            <a
+              href="https://amzn.to/4swR8Tg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>
+          {/* dress12 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img  
+              src={dress12} 
+              alt="Elegant Purple Anarkali Kurta Set"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+            />
+            <h3 className="font-semibold mb-2">
+             ANNI Designer Embroidered Tunic Top — Elegant Ethnic Style for Women
+            </h3>
+            <p className="text-sm text-muted-foreground mb-4">
+              A stunning purple anarkali kurta set with intricate embroidery and high-quality fabric.
+              Ideal for weddings, festivals, and other special events.
+            </p>
+            <a
+              href="https://amzn.to/4lwtvbe"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>  
+          {/* dress13 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img  
+              src={dress13} 
+              alt="Elegant Green Anarkali Kurta Set"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+            />
+            <h3 className="font-semibold mb-2">
+              FABNEX Kurta Pant & Dupatta Set — Elegant Ethnic Outfit for Women
+            </h3>
+            <p className="text-sm text-muted-foreground mb-4">
+            A beautiful ethnic kurta set featuring a stylish printed design with matching pants and dupatta.
+This outfit offers a perfect blend of comfort and elegance, making it ideal for festivals, family gatherings, and casual traditional wear. The soft fabric and graceful design make it a great budget-friendly fashion choice.
+            </p>
+            <a
+              href="https://amzn.to/46TtA2w"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>    
+          {/* dress14 */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <img
+              src={dress14}
+              alt="Elegant Blue Anarkali Kurta Set"
+              className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+            />
+            <h3 className="font-semibold mb-2">
+              GoSriKi Cotton Kurta Set — Stylish A-Line Kurta with Pants for Women
+            </h3>
+            <p className="text-sm text-muted-foreground mb-4">
+            A modern A-line cotton kurta set designed for comfort and everyday elegance.
+            Made with breathable cotton fabric, this outfit is perfect for college, office, and daily wear. The stylish printed pattern adds
+            a trendy touch while maintaining a classic ethnic look.
+            </p>
+            <a
+              href="https://amzn.to/40YSgDi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline"
+            >
+              View on Amazon
+            </a>
+          </div>    
         </div>
         <div>
         {/* BAGS */}
