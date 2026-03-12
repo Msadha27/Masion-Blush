@@ -24,6 +24,9 @@ import bag6 from "@/assets/fashion/Handbag.jpg";
 //Watches
 import watch1 from "@/assets/fashion/rosegoldwatch.jpg";
 import watch2 from "@/assets/fashion/Halowatch.jpg";
+import watch3 from "@/assets/fashion/dwatchbrace.jpg";
+import watch4 from "@/assets/fashion/steelwatch.jpg";
+
 //Footwear
 import footwear1 from "@/assets/fashion/jutti.jpg";
 import footwear2 from "@/assets/fashion/canvas.jpg";
@@ -581,6 +584,60 @@ This outfit offers a perfect blend of comfort and elegance, making it ideal for 
 
                     <a
                       href="https://amzn.to/4llawA2"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary underline"
+                    >
+                      View on Amazon
+                    </a>
+                  </div>
+                  {/* watch 3 */}
+                  <div className="border rounded-xl p-6 shadow-sm">
+                    <img
+                      src={watch3}
+                      alt="Joker & Witch Stainless Steel Women Yvonne Gold Analog Watch Bracelet Stack"
+                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                    />
+
+                    <h3 className="font-semibold mb-2">
+                      Joker & Witch Halo Watch — Elegant Women's Fashion Wristwatch
+                    </h3>
+
+                    <p className="text-sm text-muted-foreground mb-4">
+                      A stylish analogue watch with a rose gold strap and black dial,
+                      designed to add elegance to any outfit. Perfect for office wear,
+                      casual fashion, and special occasions.
+                    </p>
+
+                    <a
+                      href="https://amzn.to/4sauK2j"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary underline"
+                    >
+                      View on Amazon
+                    </a>
+                  </div>
+                  {/*Watch 4*/}
+                  <div className="border rounded-xl p-6 shadow-sm">
+                    <img
+                      src={watch4}
+                      alt="LOUIS DEVIN Stainless Steel Chain Analog Wrist Watch for Women"
+                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                    />
+
+                    <h3 className="font-semibold mb-2">
+                      LOUIS DEVIN Stainless Steel Chain Analog Wrist Watch for Women
+                    </h3>
+
+                    <p className="text-sm text-muted-foreground mb-4">
+                      A stylish analogue watch with a rose gold strap and black dial,
+                      designed to add elegance to any outfit. Perfect for office wear,
+                      casual fashion, and special occasions.
+                    </p>
+
+                    <a
+                      href="https://amzn.to/4cORRux"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary underline"
