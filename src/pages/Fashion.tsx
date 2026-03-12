@@ -24,7 +24,7 @@ import bag6 from "@/assets/fashion/Handbag.jpg";
 //Watches
 import watch1 from "@/assets/fashion/rosegoldwatch.jpg";
 import watch2 from "@/assets/fashion/Halowatch.jpg";
-import watch3 from "@/assets/fashion/dwatchbrace.jpg";
+import watch3 from "@/assets/fashion/watchbrace.jpg";
 import watch4 from "@/assets/fashion/steelwatch.jpg";
 
 //Footwear
