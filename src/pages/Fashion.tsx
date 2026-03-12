@@ -1,3 +1,4 @@
+import CategoryMenu from "@/components/Categorymenu";
 //dresses
 import dress1 from "@/assets/fashion/Maxi1.jpg";
 import dress2 from "@/assets/fashion/Yellowmaxi.jpg";
@@ -33,7 +34,7 @@ const Fashion = () => {
   return (
     <div className="min-h-screen py-20 px-6">
       <div className="container mx-auto max-w-6xl">
-        
+        <CategoryMenu/>
         {/* DRESSES */}
         <h2 className="text-2xl font-serif mb-6">🌸 Floral Maxi Dresses</h2>
         <div className="grid md:grid-cols-3 gap-8 mb-16">    
