@@ -3,8 +3,6 @@ import { NavLink } from "react-router-dom";
 const categories = [
   { name: "Dresses", path: "/fashion" },
   { name: "Necklaces", path: "/necklaces" },
-  { name: "Watches", path: "/watches" },
-  { name: "Footwear", path: "/footwear" },
   { name: "Outfit Styling", path: "/outfit-styling" },
 ];
 
