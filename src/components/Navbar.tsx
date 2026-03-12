@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { Heart, Menu, X } from "lucide-react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const navLinks = [
   { label: "Shop", path: "/" },
   { label: "Fashion", path: "/fashion" },
+  { label: "Necklaces", path: "/necklaces" },
+  { label: "Outfit Styling", path: "/outfit-styling" },
   { label: "Books", path: "/books" },
   { label: "Amazon Picks", path: "/finds" },
   { label: "About", path: "/about" },
@@ -13,33 +15,37 @@ const navLinks = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
+  const linkStyle = ({ isActive }: { isActive: boolean }) =>
+    `text-sm font-medium transition-colors duration-200 ${
+      isActive
+        ? "text-primary"
+        : "text-muted-foreground hover:text-primary"
+    }`;
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        
+
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2">
+        <NavLink to="/" className="flex items-center gap-2">
           <Heart className="w-5 h-5 text-primary fill-primary" />
           <span className="font-serif text-xl font-semibold tracking-wide text-foreground">
             Maison Blush
           </span>
-        </Link>
+        </NavLink>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.label}>
-              <Link
-                to={link.path}
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-200"
-              >
+              <NavLink to={link.path} className={linkStyle}>
                 {link.label}
-              </Link>
+              </NavLink>
             </li>
           ))}
         </ul>
 
-        {/* Mobile toggle */}
+        {/* Mobile Toggle */}
         <button
           className="md:hidden text-foreground"
           onClick={() => setOpen(!open)}
@@ -49,19 +55,19 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile Menu */}
       {open && (
         <div className="md:hidden bg-background border-b border-border animate-fade-in">
           <ul className="flex flex-col items-center gap-4 py-6">
             {navLinks.map((link) => (
               <li key={link.label}>
-                <Link
+                <NavLink
                   to={link.path}
-                  className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+                  className={linkStyle}
                   onClick={() => setOpen(false)}
                 >
                   {link.label}
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>
