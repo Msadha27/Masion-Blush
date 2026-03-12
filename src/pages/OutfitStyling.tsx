@@ -9,7 +9,6 @@ const OutfitStyling = () => {
         </h1>
 
         <div className="grid md:grid-cols-3 gap-8">
-
         </div>
       </div>
     </div>
