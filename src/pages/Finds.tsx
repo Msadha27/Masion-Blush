@@ -3,7 +3,7 @@ import lamp from '../assets/finds/pear-lamp.jpg';
 import sunflower from '../assets/finds/sunflower.jpg';
 import bag from '../assets/finds/crochet-bag.jpg';
 import jewelry from '../assets/finds/jewelry-box.jpg';
-
+import CategoryMenu from "@/components/Categorymenu";
 const products = [
   {
     name: "Crochet Flower Bouquet",
@@ -45,6 +45,7 @@ const products = [
 const Finds = () => {
   return (
     <div className="min-h-screen p-10 max-w-6xl mx-auto">
+      <CategoryMenu/>
       <h1 className="text-4xl font-serif mb-3">
         Aesthetic Amazon Finds
       </h1>

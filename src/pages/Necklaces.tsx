@@ -4,13 +4,13 @@ import necklace3 from "@/assets/fashion/Heart.jpg";
 import necklace4 from "@/assets/fashion/Blackheart.jpg";
 import necklace5 from "@/assets/fashion/Pinkheart.jpg";
 import ring1 from "@/assets/fashion/rings.jpg";
-
+import CategoryMenu from "@/components/Categorymenu";
 
 const Necklaces = () => {
   return (
             <div className="min-h-screen py-20 px-6">
                 <div className="container mx-auto max-w-6xl">
-
+                    <CategoryMenu/>
                     <h1 className="text-3xl font-serif mb-12 text-center">
                     Curated Fashion Picks
                     </h1>
