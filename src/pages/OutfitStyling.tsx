@@ -1,4 +1,4 @@
-import CategoryMenu from "@/components/Categorymenu";
+import CategoryMenu from "@/components/CategoryMenuTemp";
 const OutfitStyling = () => {
   return (
     <div className="min-h-screen py-20 px-6">

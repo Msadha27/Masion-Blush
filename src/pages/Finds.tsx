@@ -3,7 +3,7 @@ import lamp from '../assets/finds/pear-lamp.jpg';
 import sunflower from '../assets/finds/sunflower.jpg';
 import bag from '../assets/finds/crochet-bag.jpg';
 import jewelry from '../assets/finds/jewelry-box.jpg';
-import CategoryMenu from "@/components/Categorymenu";
+import CategoryMenu from "@/components/CategoryMenuTemp";
 const products = [
   {
     name: "Crochet Flower Bouquet",

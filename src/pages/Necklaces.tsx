@@ -4,7 +4,7 @@ import necklace3 from "@/assets/fashion/Heart.jpg";
 import necklace4 from "@/assets/fashion/Blackheart.jpg";
 import necklace5 from "@/assets/fashion/Pinkheart.jpg";
 import ring1 from "@/assets/fashion/rings.jpg";
-import CategoryMenu from "@/components/Categorymenu";
+import CategoryMenu from "@/components/CategoryMenuTemp";
 
 const Necklaces = () => {
   return (

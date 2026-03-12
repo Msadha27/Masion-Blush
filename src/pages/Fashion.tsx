@@ -1,5 +1,4 @@
-import CategoryMenu from "@/components/Categorymenu";
-//dresses
+
 import dress1 from "@/assets/fashion/Maxi1.jpg";
 import dress2 from "@/assets/fashion/Yellowmaxi.jpg";
 import dress3 from "@/assets/fashion/Pinkfloral.jpg";
@@ -30,7 +29,8 @@ import watch4 from "@/assets/fashion/steelwatch.jpg";
 //Footwear
 import footwear1 from "@/assets/fashion/jutti.jpg";
 import footwear2 from "@/assets/fashion/canvas.jpg";
-
+import CategoryMenu from "@/components/CategoryMenuTemp";
+//dresses
 
 
 const Fashion = () => {

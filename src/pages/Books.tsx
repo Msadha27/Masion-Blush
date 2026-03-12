@@ -1,4 +1,4 @@
-import CategoryMenu from "@/components/Categorymenu";
+import CategoryMenu from "@/components/CategoryMenuTemp";
 const Books = () => {
   return (
     <div className="min-h-screen p-10">
