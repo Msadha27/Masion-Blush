@@ -25,10 +25,12 @@ import watch1 from "@/assets/fashion/rosegoldwatch.jpg";
 import watch2 from "@/assets/fashion/Halowatch.jpg";
 import watch3 from "@/assets/fashion/watchbrace.jpg";
 import watch4 from "@/assets/fashion/steelwatch.jpg";
+import watch5 from "@/assets/fashion/pinkwatch.jpg";
 
 //Footwear
 import footwear1 from "@/assets/fashion/jutti.jpg";
 import footwear2 from "@/assets/fashion/canvas.jpg";
+import footwear3 from "@/assets/fashion/blacksandal.jpg";
 import CategoryMenu from "@/components/CategoryMenuTemp";
 //dresses
 
@@ -645,6 +647,33 @@ This outfit offers a perfect blend of comfort and elegance, making it ideal for 
                       View on Amazon
                     </a>
                   </div>
+                  {/*Watch 5*/}
+                  <div className="border rounded-xl p-6 shadow-sm">
+                    <img
+                      src={watch5}
+                      alt="IIK COLLECTION Watches for Women Round Dial "
+                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                    />
+
+                    <h3 className="font-semibold mb-2">
+                      IIK COLLECTION Watches for Women Round Dial
+                    </h3>
+
+                    <p className="text-sm text-muted-foreground mb-4">
+                      A stylish analogue watch with a rose gold strap and black dial,
+                      designed to add elegance to any outfit. Perfect for office wear,
+                      casual fashion, and special occasions.
+                    </p>
+
+                    <a
+                      href="https://amzn.to/3N1Y9wp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary underline"
+                    >
+                      View on Amazon
+                    </a>
+                  </div>
               </div>
             </div>
             </div>
@@ -697,6 +726,33 @@ This outfit offers a perfect blend of comfort and elegance, making it ideal for 
 
                     <a
                       href="https://amzn.to/4s6XWr1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary underline"
+                    >
+                      View on Amazon
+                    </a>
+                  </div>
+                  {/* footwear 3 */}
+                  <div className="border rounded-xl p-6 shadow-sm">
+                    <img
+                      src={footwear3}
+                      alt="Women Stylish Slippers Flip Flops Cream Flat Slip on Sandals"
+                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                    />
+
+                    <h3 className="font-semibold mb-2">
+                     Women Stylish Slippers Flip Flops Cream Flat Slip on Sandals
+                    </h3>
+
+                    <p className="text-sm text-muted-foreground mb-4">
+                      Stylish and comfortable ethnic sandals designed for everyday fashion. 
+                      These versatile shoes feature a classic design and high-quality materials,
+                      making them perfect for both casual and formal occasions.
+                    </p>
+
+                    <a
+                      href="https://amzn.to/3OYWEzE"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary underline"
