@@ -11,6 +11,9 @@ import Fashion from "./pages/Fashion";
 import Books from "./pages/Books";
 import Finds from "./pages/Finds";
 import Necklaces from "./pages/Necklaces";
+import Watch from "./pages/Watch";
+import Bags from "./pages/Bags";
+import Footwear from "./pages/Footwear";
 import OutfitStyling from "./pages/OutfitStyling";
 
 const queryClient = new QueryClient();
@@ -27,6 +30,9 @@ const App = () => (
           <Route path="/books" element={<Books />} />
           <Route path="/finds" element={<Finds />} />
           <Route path="/necklaces" element={<Necklaces />} />
+          <Route path="/watches" element={<Watch />} /> 
+          <Route path="/bags" element={<Bags />} />
+          <Route path="/footwear" element={<Footwear />} />
           <Route path="/outfit-styling" element={<OutfitStyling />} />
           {/* Catch-all route */}
           <Route path="*" element={<NotFound />} />
