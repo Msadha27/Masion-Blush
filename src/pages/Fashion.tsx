@@ -13,24 +13,9 @@ import dress11 from "@/assets/fashion/Blackanarkali.jpg";
 import dress12 from "@/assets/fashion/Ethnicpurple.jpg";
 import dress13 from "@/assets/fashion/Greenkurti.jpg";
 import dress14 from "@/assets/fashion/Bluekurta.jpg";
-//bags
-import bag1 from "@/assets/fashion/bag1.jpg";
-import bag2 from "@/assets/fashion/bag2.jpg";
-import bag3 from "@/assets/fashion/bag3.jpg";
-import bag4 from "@/assets/fashion/Koreanbag.jpg";
-import bag5 from "@/assets/fashion/bag4.jpg";
-import bag6 from "@/assets/fashion/Handbag.jpg";
-//Watches
-import watch1 from "@/assets/fashion/rosegoldwatch.jpg";
-import watch2 from "@/assets/fashion/Halowatch.jpg";
-import watch3 from "@/assets/fashion/watchbrace.jpg";
-import watch4 from "@/assets/fashion/steelwatch.jpg";
-import watch5 from "@/assets/fashion/pinkwatch.jpg";
+import dress15 from "@/assets/fashion/elegentkurta.jpg";
 
-//Footwear
-import footwear1 from "@/assets/fashion/jutti.jpg";
-import footwear2 from "@/assets/fashion/canvas.jpg";
-import footwear3 from "@/assets/fashion/blacksandal.jpg";
+
 import CategoryMenu from "@/components/CategoryMenuTemp";
 //dresses
 
@@ -380,392 +365,45 @@ This outfit offers a perfect blend of comfort and elegance, making it ideal for 
             >
               View on Amazon
             </a>
-          </div>    
-        </div>
-        <div>
-        {/* BAGS */}
-        <div className="mb-16">
-        <h2 className="text-2xl font-serif mb-6">👜 Aesthetic Bags</h2>
-        <div className="grid md:grid-cols-3 gap-8">
-          {/* Add 3 bag blocks */}
-          {/*bag 1*/}
+          </div> 
+          {/* dress15 */}
+                   
           <div className="border rounded-xl p-6 shadow-sm">
             <img
-              src={bag1}
-              alt="The Purple Tree Printed Canvas Tote Bag"
-              className="w-full h-64 object-cover rounded-lg mb-4"
-            />
-
-            <h3 className="font-semibold mb-2">
-              The Purple Tree Printed Canvas Tote Bag
-            </h3>
-
-            <p className="text-sm text-muted-foreground mb-4">
-              A stylish printed canvas tote perfect for college days,
-              casual outings and everyday minimal styling.
-            </p>
-
-            <a
-              href="https://amzn.to/4rSHqtS"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary underline"
-            >
-              View on Amazon
-            </a>
-          </div>
-          {/*bag 2*/}
-          <div className="border rounded-xl p-6 shadow-sm">
-            <img
-              src={bag2}
-              alt="Eco Right Large Canvas Tote with Zipper"
+              src={dress15}
+              alt="Klosia Women Embroidered Kurta Pant Set with Dupatta"
               className="w-full h-80 object-contain bg-white rounded-lg mb-4"
             />
 
             <h3 className="font-semibold mb-2">
-              Eco Right Large Canvas Tote with Zipper
+              Klosia Women Embroidered Kurta Pant Set with Dupatta
             </h3>
 
             <p className="text-sm text-muted-foreground mb-4">
-              Spacious and practical with inner pocket and zipper —
-              perfect for college, shopping and office essentials.
+              Elegant maroon kurta and pant set featuring stylish embroidery on the neckline
+              and hem, paired with a matching dupatta. Perfect for festive occasions, family
+              gatherings, and traditional celebrations while maintaining comfort and style.
             </p>
 
             <a
-              href="https://amzn.to/4b0je3d"
+              href="https://amzn.to/4shMc54"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary underline"
             >
               View on Amazon
             </a>
-          </div>
-          {/*bag 3*/}
-          <div className="border rounded-xl p-6 shadow-sm">
-              <img
-                src={bag3}
-                alt="The Purple Tree Printed Fatty Tote Bag"
-                className="w-full h-64 object-cover rounded-lg mb-4"
-              />
-
-              <h3 className="font-semibold mb-2">
-                The Purple Tree Printed Fatty Tote Bag
-              </h3>
-
-              <p className="text-sm text-muted-foreground mb-4">
-                A cute and gift-worthy printed tote —
-                stylish, functional and perfect for everyday use.
-              </p>
-
-              <a
-                href="https://amzn.to/4b0j7EP"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary underline"
-              >
-                View on Amazon
-              </a>
-            </div>
-          {/*bag 4*/}
-          <div className="border rounded-xl p-6 shadow-sm">
-              <img
-                src={bag4}
-                alt="Korean Style Canvas Tote Bag"
-                className="w-full h-64 object-cover rounded-lg mb-4"
-              />  
-              <h3 className="font-semibold mb-2">
-                Kawn® Korean Corduroy Aesthetic Tote Bag
-              </h3>   
-              <p className="text-sm text-muted-foreground mb-4">
-               A soft Korean-style corduroy tote with a ribbed design — neutral, minimal
-               and perfect for college, travel and everyday soft-girl outfits.
-              </p>
-              <a
-                href="https://amzn.to/4aTG0Zg"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary underline"
-              >
-                View on Amazon
-              </a>
-              </div>
-          {/*bag 5*/}
-          <div className="border rounded-xl p-6 shadow-sm">
-              <img
-                src={bag5}
-                alt="ADISA Minimal Crossbody Sling Bag"
-                className="w-full h-64 object-cover rounded-lg mb-4"
-              />  
-              <h3 className="font-semibold mb-2">
-                ADISA Minimal Crossbody Sling Bag
-              </h3>   
-              <p className="text-sm text-muted-foreground mb-4">
-               A chic and versatile canvas tote designed for everyday use.
-               Perfect for college, errands, casual outings, and effortless minimal styling.
-               Lightweight, durable, and spacious — your go-to carry-all for a stylish day on the move.
-              </p>
-              <a
-                href="https://amzn.to/40LF709"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary underline"
-              >
-                View on Amazon
-              </a>
-              </div>
-          {/*bag 6*/}
-          <div className="border rounded-xl p-6 shadow-sm">
-              <img
-                src={bag6}
-                alt="Stylish Knitted Crochet Handbag"
-                className="w-full h-64 object-cover rounded-lg mb-4"
-              />
-              <h3 className="font-semibold mb-2">
-                Elegant Evening Clutch Bag
-              </h3>
-              <p className="text-sm text-muted-foreground mb-4">
-               A stylish evening clutch designed to complement both ethnic and modern outfits. Featuring a sleek textured finish and a delicate chain strap, this handbag adds a touch of elegance to any party or festive look. Compact yet spacious enough for your essentials, 
-               it’s the perfect accessory for weddings, celebrations, and special occasions.
-              </p>
-              <a
-                href="https://amzn.to/4snpmZc"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary underline"
-              >
-                View on Amazon
-              </a>
-              </div>
+          </div>   
+        </div>
+        <div>
+      
+            
             </div>
             </div>
           <div>
-             {/* Watches*/}
-              <div className="mb-16">
-              <h2 className="text-2xl font-serif mb-6">⌚ Elegant Watches</h2>
-              <div className="grid md:grid-cols-3 gap-8">
-                {/* Add 3 watch blocks */}
-                {/* watch 1 */}
-                <div className="border rounded-xl p-6 shadow-sm">
-                  <img
-                    src={watch1}
-                    alt="Rose Gold Minimalist Watch"
-                    className="w-full h-64 object-cover rounded-lg mb-4"
-                  />  
-                  <h3 className="font-semibold mb-2">
-                    Rose Gold Minimalist Watch
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    A sleek and elegant rose gold watch with a minimalist design — perfect for everyday wear, office styling, and special occasions. Lightweight, comfortable, and designed to elevate any outfit with a touch of timeless sophistication.
-                  </p>  
-                  <a
-                    href="https://amzn.to/4bi4vzQ"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary underline"
-                  >
-                    View on Amazon
-                  </a>
-                  </div>
-                  {/* watch 2 */}
-                  <div className="border rounded-xl p-6 shadow-sm">
-                    <img
-                      src={watch2}
-                      alt="Joker & Witch Halo Analogue Watch for Women"
-                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
-                    />
-
-                    <h3 className="font-semibold mb-2">
-                      Joker & Witch Halo Watch — Elegant Women's Fashion Wristwatch
-                    </h3>
-
-                    <p className="text-sm text-muted-foreground mb-4">
-                      A stylish analogue watch with a rose gold strap and black dial,
-                      designed to add elegance to any outfit. Perfect for office wear,
-                      casual fashion, and special occasions.
-                    </p>
-
-                    <a
-                      href="https://amzn.to/4llawA2"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary underline"
-                    >
-                      View on Amazon
-                    </a>
-                  </div>
-                  {/* watch 3 */}
-                  <div className="border rounded-xl p-6 shadow-sm">
-                    <img
-                      src={watch3}
-                      alt="Joker & Witch Stainless Steel Women Yvonne Gold Analog Watch Bracelet Stack"
-                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
-                    />
-
-                    <h3 className="font-semibold mb-2">
-                      Joker & Witch Halo Watch — Elegant Women's Fashion Wristwatch
-                    </h3>
-
-                    <p className="text-sm text-muted-foreground mb-4">
-                      A stylish analogue watch with a rose gold strap and black dial,
-                      designed to add elegance to any outfit. Perfect for office wear,
-                      casual fashion, and special occasions.
-                    </p>
-
-                    <a
-                      href="https://amzn.to/4sauK2j"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary underline"
-                    >
-                      View on Amazon
-                    </a>
-                  </div>
-                  {/*Watch 4*/}
-                  <div className="border rounded-xl p-6 shadow-sm">
-                    <img
-                      src={watch4}
-                      alt="LOUIS DEVIN Stainless Steel Chain Analog Wrist Watch for Women"
-                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
-                    />
-
-                    <h3 className="font-semibold mb-2">
-                      LOUIS DEVIN Stainless Steel Chain Analog Wrist Watch for Women
-                    </h3>
-
-                    <p className="text-sm text-muted-foreground mb-4">
-                      A stylish analogue watch with a rose gold strap and black dial,
-                      designed to add elegance to any outfit. Perfect for office wear,
-                      casual fashion, and special occasions.
-                    </p>
-
-                    <a
-                      href="https://amzn.to/4cORRux"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary underline"
-                    >
-                      View on Amazon
-                    </a>
-                  </div>
-                  {/*Watch 5*/}
-                  <div className="border rounded-xl p-6 shadow-sm">
-                    <img
-                      src={watch5}
-                      alt="IIK COLLECTION Watches for Women Round Dial "
-                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
-                    />
-
-                    <h3 className="font-semibold mb-2">
-                      IIK COLLECTION Watches for Women Round Dial
-                    </h3>
-
-                    <p className="text-sm text-muted-foreground mb-4">
-                      A stylish analogue watch with a rose gold strap and black dial,
-                      designed to add elegance to any outfit. Perfect for office wear,
-                      casual fashion, and special occasions.
-                    </p>
-
-                    <a
-                      href="https://amzn.to/3N1Y9wp"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary underline"
-                    >
-                      View on Amazon
-                    </a>
-                  </div>
-              </div>
-            </div>
-            </div>
-          <div>
-             {/* Footwear */}
-              <div className="mb-16">
-              <h2 className="text-2xl font-serif mb-6">👡 Aesthetic Footwear</h2>
-              <div className="grid md:grid-cols-3 gap-8">
-                {/* Add 3 footwear blocks */}
-                {/* footwear 1 */}
-                <div className="border rounded-xl p-6 shadow-sm">
-                  <img
-                    src={footwear1}
-                    alt="Traditional Jutti Shoes"
-                    className="w-full h-64 object-cover rounded-lg mb-4"
-                  />  
-                  <h3 className="font-semibold mb-2">
-                    Traditional Jutti Shoes
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    A pair of traditional jutti shoes featuring intricate embroidery and a comfortable fit — perfect
-                    for formal and casual occasions alike. These versatile shoes add a touch of timeless elegance to any outfit.  
-                  </p>
-                  <a
-                    href="https://amzn.to/4rlw94T"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary underline"
-                  >
-                    View on Amazon
-                  </a>
-                  </div>
-                  {/* footwear 2 */}
-                  <div className="border rounded-xl p-6 shadow-sm">
-                    <img
-                      src={footwear2}
-                      alt="CANVI Women's Ethnic Flats Sandals"
-                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
-                    />
-
-                    <h3 className="font-semibold mb-2">
-                      CANVI Stylish Ethnic Flats — Comfortable Women's Casual Sandals
-                    </h3>
-
-                    <p className="text-sm text-muted-foreground mb-4">
-                      Elegant and comfortable ethnic flats designed for everyday fashion. 
-                      These stylish sandals feature a pointed toe design and soft synthetic leather,
-                      making them perfect for college, casual outings, and ethnic outfits.
-                    </p>
-
-                    <a
-                      href="https://amzn.to/4s6XWr1"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary underline"
-                    >
-                      View on Amazon
-                    </a>
-                  </div>
-                  {/* footwear 3 */}
-                  <div className="border rounded-xl p-6 shadow-sm">
-                    <img
-                      src={footwear3}
-                      alt="Women Stylish Slippers Flip Flops Cream Flat Slip on Sandals"
-                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
-                    />
-
-                    <h3 className="font-semibold mb-2">
-                     Women Stylish Slippers Flip Flops Cream Flat Slip on Sandals
-                    </h3>
-
-                    <p className="text-sm text-muted-foreground mb-4">
-                      Stylish and comfortable ethnic sandals designed for everyday fashion. 
-                      These versatile shoes feature a classic design and high-quality materials,
-                      making them perfect for both casual and formal occasions.
-                    </p>
-
-                    <a
-                      href="https://amzn.to/3OYWEzE"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary underline"
-                    >
-                      View on Amazon
-                    </a>
-                  </div>
-              </div>
-              </div>
-            </div>
+            
           </div>
-      </div>
-      </div>
+        </div>
   );
 }
 
