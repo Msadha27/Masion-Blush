@@ -6,6 +6,7 @@ import watch4 from "@/assets/Watches/steelwatch.jpg";
 import watch5 from "@/assets/Watches/pinkwatch.jpg";
 import watch6 from "@/assets/Watches/leatherwatch.jpg";
 import bracelet from "@/assets/Watches/bracelet.jpg";
+import watch7 from "@/assets/Watches/bluewatch.jpg";
 import CategoryMenu from "@/components/CategoryMenuTemp";
 import { BriefcaseConveyorBelt } from "lucide-react";
 
@@ -204,6 +205,33 @@ const Watch = () => {
                     >
                         View on Amazon
                     </a>
+                    </div>
+                    {/* Watch 7 */}
+                    <div className="border rounded-xl p-6 shadow-sm">
+                      <img
+                        src={watch6}
+                        alt="IIK Collection Women Analogue Quartz Watch"
+                        className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                      />
+
+                      <h3 className="font-semibold mb-2">
+                        IIK Collection Women Analogue Quartz Watch
+                      </h3>
+
+                      <p className="text-sm text-muted-foreground mb-4">
+                        A stylish analogue watch with a round dial and elegant metal bracelet strap.
+                        Designed for everyday fashion, office wear, and casual outfits. Lightweight,
+                        durable, and perfect for women looking for affordable style.
+                      </p>
+
+                      <a
+                        href="https://amzn.to/40ABA4W"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary underline"
+                      >
+                        View on Amazon
+                      </a>
                     </div>
               </div>
             </div>
