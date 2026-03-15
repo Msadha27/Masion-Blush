@@ -7,6 +7,8 @@ import watch5 from "@/assets/Watches/pinkwatch.jpg";
 import watch6 from "@/assets/Watches/leatherwatch.jpg";
 import bracelet from "@/assets/Watches/bracelet.jpg";
 import watch7 from "@/assets/Watches/bluewatch.jpg";
+import bracelet2 from "@/assets/Watches/rosegoldbracelet.jpg";
+import bracelet3 from "@/assets/Watches/pinkbrace.jpg";
 import CategoryMenu from "@/components/CategoryMenuTemp";
 import { BriefcaseConveyorBelt } from "lucide-react";
 
@@ -226,6 +228,60 @@ const Watch = () => {
 
                       <a
                         href="https://amzn.to/40ABA4W"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary underline"
+                      >
+                        View on Amazon
+                      </a>
+                    </div>
+                    {/* Rose Gold Crystal Bracelet */}
+                    <div className="border rounded-xl p-6 shadow-sm">
+                      <img
+                        src={bracelet2}
+                        alt="Shining Diva Rose Gold Crystal Bracelet"
+                        className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                      />
+
+                      <h3 className="font-semibold mb-2">
+                        Shining Diva Rose Gold Crystal Bracelet
+                      </h3>
+
+                      <p className="text-sm text-muted-foreground mb-4">
+                        A stylish rose gold bracelet featuring sparkling crystal accents.
+                        Lightweight and elegant, perfect for everyday wear, parties,
+                        and adding a touch of glamour to your outfit.
+                      </p>
+
+                      <a
+                        href="https://amzn.to/4146SRN"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary underline"
+                      >
+                        View on Amazon
+                      </a>
+                    </div>
+                    {/* Crystal Rose Gold Bracelet */}
+                    <div className="border rounded-xl p-6 shadow-sm">
+                      <img
+                        src={bracelet3}
+                        alt="Shining Diva Stylish Crystal Bracelet for Women"
+                        className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                      />
+
+                      <h3 className="font-semibold mb-2">
+                        Shining Diva Stylish Crystal Bracelet for Women
+                      </h3>
+
+                      <p className="text-sm text-muted-foreground mb-4">
+                        A delicate rose gold bracelet with sparkling crystal accents.
+                        Designed for elegance and comfort, perfect for everyday wear,
+                        parties, and adding a stylish touch to any outfit.
+                      </p>
+
+                      <a
+                        href="https://amzn.to/4bdvb60"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary underline"

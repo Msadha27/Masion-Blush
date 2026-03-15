@@ -14,6 +14,9 @@ import dress12 from "@/assets/fashion/Ethnicpurple.jpg";
 import dress13 from "@/assets/fashion/Greenkurti.jpg";
 import dress14 from "@/assets/fashion/Bluekurta.jpg";
 import dress15 from "@/assets/fashion/elegentkurta.jpg";
+import dress16 from "@/assets/fashion/blueshort.jpg";
+import dress17 from "@/assets/fashion/brownshort.jpg";
+import dress18 from "@/assets/fashion/yellowshort.jpg";
 
 
 import CategoryMenu from "@/components/CategoryMenuTemp";
@@ -393,7 +396,88 @@ This outfit offers a perfect blend of comfort and elegance, making it ideal for 
             >
               View on Amazon
             </a>
-          </div>   
+          </div> 
+                      {/* Floral Short Kurti */}
+            <div className="border rounded-xl p-6 shadow-sm">
+              <img
+                src={dress16}
+                alt="Women Floral Printed Cotton Short Kurti"
+                className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+              />
+
+              <h3 className="font-semibold mb-2">
+                Women Floral Printed Cotton Short Kurti
+              </h3>
+
+              <p className="text-sm text-muted-foreground mb-4">
+                A stylish floral printed short kurti made from breathable cotton fabric.
+                Featuring a trendy square neckline, full sleeves, and elegant ethnic design.
+                Perfect for casual wear, college outfits, and everyday styling.
+              </p>
+
+              <a
+                href="https://amzn.to/4lycYDB"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline"
+              >
+                View on Amazon
+              </a>
+            </div>  
+            {/* V Neck Rayon Short Kurti */}
+              <div className="border rounded-xl p-6 shadow-sm">
+                <img
+                  src={dress17}
+                  alt="Women's Rayon Floral Printed V Neck Short Kurti"
+                  className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                />
+
+                <h3 className="font-semibold mb-2">
+                  Women's Rayon Floral Printed V Neck Short Kurti
+                </h3>
+
+                <p className="text-sm text-muted-foreground mb-4">
+                  A stylish rayon short kurti with a flattering V-neck design and elegant
+                  floral print. Featuring full sleeves and a comfortable fit, perfect for
+                  office wear, casual outings, and everyday ethnic styling.
+                </p>
+
+                <a
+                  href="https://amzn.to/3P1ea6m"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary underline"
+                >
+                  View on Amazon
+                </a>
+              </div>
+              {/* Yellow Printed Short Kurti */}
+                <div className="border rounded-xl p-6 shadow-sm">
+                  <img
+                    src={dress18}
+                    alt="ANNI Designer Women's Printed Short Kurti"
+                    className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                  />
+
+                  <h3 className="font-semibold mb-2">
+                    ANNI Designer Women's Printed Short Kurti
+                  </h3>
+
+                  <p className="text-sm text-muted-foreground mb-4">
+                    A trendy printed short kurti with a flattering square neckline and stylish
+                    bell sleeves. Designed for comfortable everyday wear, perfect for college,
+                    office outfits, and casual ethnic styling.
+                  </p>
+
+                  <a
+                    href="https://amzn.to/4sLmfKU"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary underline"
+                  >
+                    View on Amazon
+                  </a>
+                </div>
         </div>
         <div>
       

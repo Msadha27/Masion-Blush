@@ -2,6 +2,7 @@
 import footwear1 from "@/assets/footwear/jutti.jpg";
 import footwear2 from "@/assets/footwear/canvas.jpg";
 import footwear3 from "@/assets/footwear/blacksandal.jpg";
+import footwear4 from "@/assets/footwear/pinksandal.jpg";
 import CategoryMenu from "@/components/CategoryMenuTemp";
 
 const Footwear = () => {
@@ -84,6 +85,33 @@ const Footwear = () => {
 
                     <a
                       href="https://amzn.to/3OYWEzE"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary underline"
+                    >
+                      View on Amazon
+                    </a>
+                  </div>
+                  {/* Stylish Block Heel Sandals */}
+                  <div className="border rounded-xl p-6 shadow-sm">
+                    <img
+                      src={footwear4}
+                      alt="JM LOOKS Fashion Block Heel Sandals for Women"
+                      className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                    />
+
+                    <h3 className="font-semibold mb-2">
+                      JM LOOKS Fashion Block Heel Sandals for Women
+                    </h3>
+
+                    <p className="text-sm text-muted-foreground mb-4">
+                      Stylish block heel sandals featuring a comfortable backstrap design
+                      and cushioned sole. Perfect for casual outfits, parties, and everyday
+                      fashion styling.
+                    </p>
+
+                    <a
+                      href="https://amzn.to/3NpvFN8"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary underline"
