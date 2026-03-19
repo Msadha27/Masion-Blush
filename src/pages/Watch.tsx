@@ -9,8 +9,13 @@ import bracelet from "@/assets/Watches/bracelet.jpg";
 import watch7 from "@/assets/Watches/bluewatch.jpg";
 import bracelet2 from "@/assets/Watches/rosegoldbracelet.jpg";
 import bracelet3 from "@/assets/Watches/pinkbrace.jpg";
+import watch8 from "@/assets/Watches/louiswatch.jpg";
+import watch9 from "@/assets/Watches/luioscreamwatch.jpg";
+import watch10 from "@/assets/Watches/jokerwatch.jpg";
+
 import CategoryMenu from "@/components/CategoryMenuTemp";
 import { BriefcaseConveyorBelt } from "lucide-react";
+import { i } from "node_modules/vite/dist/node/types.d-aGj9QkWt";
 
 const Watch = () => {
   return (
@@ -289,6 +294,90 @@ const Watch = () => {
                         View on Amazon
                       </a>
                     </div>
+
+
+                    {/* Watch 8 - Louis Devin Blue Dial */}
+                    <div className="border rounded-xl p-6 shadow-sm">
+                      <img
+                        src={watch8}
+                        alt="LOUIS DEVIN Rose Gold Mesh Strap Analog Watch for Women Blue Dial"
+                        className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                      />
+
+                      <h3 className="font-semibold mb-2">
+                        LOUIS DEVIN Rose Gold Mesh Strap Watch (Blue Dial)
+                      </h3>
+
+                      <p className="text-sm text-muted-foreground mb-4">
+                        A stunning blue dial watch with a rose gold mesh strap that adds a bold
+                        yet elegant touch. Perfect for statement outfits, parties, and daily wear.
+                        Stylish, trendy, and budget-friendly.
+                      </p>
+
+                      <a
+                        href="https://amzn.to/3PsVxbu"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary underline"
+                      >
+                        View on Amazon (₹359)
+                      </a>
+                    </div>
+                    {/* Watch 9 - Louis Devin Beige Dial */}
+                    <div className="border rounded-xl p-6 shadow-sm">
+                      <img
+                        src={watch9}
+                        alt="LOUIS DEVIN Rose Gold Mesh Strap Analog Watch for Women Beige Dial"
+                        className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                      />
+
+                      <h3 className="font-semibold mb-2">
+                        LOUIS DEVIN Rose Gold Mesh Strap Watch (Beige Dial)
+                      </h3>
+
+                      <p className="text-sm text-muted-foreground mb-4">
+                        A sleek rose gold mesh strap watch with a minimal beige dial. Designed
+                        for a classy and modern look, perfect for both casual and formal outfits.
+                        Affordable luxury that elevates your everyday style.
+                      </p>
+
+                      <a
+                        href="https://amzn.to/3PhqDmp"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary underline"
+                      >
+                        View on Amazon (₹359)
+                      </a>
+                    </div>
+                    {/* Watch  10 - Joker & Witch */}
+                    <div className="border rounded-xl p-6 shadow-sm">
+                      <img
+                        src={watch10}
+                        alt="Joker & Witch Skyfall Women's Grey and Rosegold Strap Watch"
+                        className="w-full h-80 object-contain bg-white rounded-lg mb-4"
+                      />
+
+                      <h3 className="font-semibold mb-2">
+                        Joker & Witch Skyfall Women's Grey & Rosegold Strap Watch
+                      </h3>
+
+                      <p className="text-sm text-muted-foreground mb-4">
+                        A soft pastel blue strap watch with a rosegold dial that gives a minimal
+                        and elegant look. Perfect for everyday wear, college outfits, and gifting.
+                        Lightweight, stylish, and designed for a feminine aesthetic.
+                      </p>
+
+                      <a
+                        href="https://amzn.to/3NnXvJH"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary underline"
+                      >
+                        View on Amazon (₹749)
+                      </a>
+                    </div>
+
               </div>
             </div>
         </div>
